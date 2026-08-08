@@ -1,2 +1,2 @@
 # arduino-line-follower-robot
-Basic autonomous line-following robot
+Basic autonomous line-following robot with components
