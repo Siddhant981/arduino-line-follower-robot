@@ -30,3 +30,36 @@ The Arduino sends the control signals to the TB6612FNG motor driver, which contr
 ### Control Flow
 
 Line Sensors → Arduino Nano → Decision Logic → TB6612FNG → DC Motors
+
+## Pin Configuration
+
+### TB6612FNG Motor Driver
+
+| Arduino Nano Pin | Function |
+
+| D7 | Motor A IN1 |
+| D4 | Motor A IN2 |
+| D5 | Motor A PWM |
+| D8 | Motor B IN1 |
+| D9 | Motor B IN2 |
+| D6 | Motor B PWM |
+| D12 | Standby (STBY) |
+
+### Line Sensors
+
+| Arduino Nano Pin | Sensor |
+
+| A0 | S1 |
+| A1 | S2 |
+| A2 | S3 |
+| A3 | S4 |
+| A4 | S5 |
+| A5 | S6 |
+| A6 | S7 |
+| A7 | S8 |
+
+### LED
+
+| Arduino Nano Pin | Function |
+
+| D2 | Status LED |
