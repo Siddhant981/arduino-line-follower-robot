@@ -63,3 +63,18 @@ Line Sensors → Arduino Nano → Decision Logic → TB6612FNG → DC Motors
 | Arduino Nano Pin | Function |
 
 | D2 | Status LED |
+
+## Control Logic
+
+The robot uses threshold-based sensor logic to determine its movement.
+
+The sensor readings are compared against a threshold value of `900`.
+
+Based on the detected line position:
+
+- Sensors on the left side trigger a left turn.
+- Center sensors allow the robot to move forward.
+- Sensors on the right side trigger a right turn.
+- The motor speeds are adjusted using PWM to control the turning behavior.
+
+The current implementation uses rule-based control rather than PID control.
