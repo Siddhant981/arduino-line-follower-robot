@@ -72,6 +72,12 @@ The sensor readings are compared against a threshold value of `900`.
 
 Based on the detected line position:
 
+## Source Code
+
+The Arduino firmware is available here:
+
+[`line_follower_robot.ino`](./line_follower_robot.ino)
+
 - Sensors on the left side trigger a left turn.
 - Center sensors allow the robot to move forward.
 - Sensors on the right side trigger a right turn.
