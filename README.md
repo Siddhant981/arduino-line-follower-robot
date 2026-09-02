@@ -91,12 +91,3 @@ Completed and tested as a competition project.
 
 The physical robot was later dismantled after the competition, but the source code and project documentation are preserved in this repository.
 
-## Future Improvements
-
-- Implement PID control for smoother and faster line tracking
-- Add sensor calibration for more reliable detection
-- Improve motor speed control
-- Add encoder feedback for closed-loop motor control
-- Optimize the control logic for higher-speed competition tracks
-- Improve wiring and mechanical design
-- Add performance measurements such as lap time and tracking accuracy
