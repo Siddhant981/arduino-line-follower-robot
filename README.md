@@ -4,7 +4,7 @@ A threshold-based autonomous line-following robot built around an Arduino Nano, 
 
 The project focuses on the hardware-software control loop: reading multiple sensor inputs, deciding the robot's direction from sensor states, and controlling the motors using PWM.
 
-![Arduino Line Follower Robot](./line%20following%20robot.jpeg)
+![Arduino Line Follower Robot](./media/robot-overview.jpeg)
 
 ## Features
 
@@ -30,7 +30,7 @@ The project focuses on the hardware-software control loop: reading multiple sens
 
 ### Robot Close-up
 
-![Robot close-up](./robot%20closeup.jpeg)
+![Robot close-up](./media/robot-closeup.jpeg)
 
 ## How It Works
 
@@ -95,8 +95,9 @@ The current implementation uses **rule-based threshold control** rather than PID
 arduino-line-follower-robot/
 ├── README.md
 ├── arduino-line-follower-robot.ino
-├── line following robot.jpeg
-├── robot closeup.jpeg
+├── media/
+│   ├── robot-overview.jpeg
+│   └── robot-closeup.jpeg
 └── docs/
     ├── control-logic.md
     └── hardware.md
