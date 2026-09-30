@@ -72,6 +72,10 @@ The current implementation uses **rule-based threshold control** rather than PID
 
 > **Note:** The repository intentionally keeps the original control code unchanged. The documentation describes the implementation as it currently exists.
 
+## Project Note
+
+After the match, the robot was later dismantled and the hardware was reused for other builds and experiments.
+
 ## Current Limitations
 
 - Fixed sensor threshold
